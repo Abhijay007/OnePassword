@@ -38,3 +38,140 @@
         opacity: 0;
     }
 }@media only screen and (min-width:768px) and (max-width:991px){.mainmenu-area #primary-menu>ul>li>a{padding:30px 12px}.header-area{padding-top:80px}.price-table,.box{padding:30px 15px}.price-table.active{padding:50px 15px}.single-team{margin-bottom:30px}.side-icon-boxes{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}}@media only screen and (max-width:767px){body{font-size:13px}.header-area{padding-top:120px;padding-bottom:100px;height:auto}.page-title h2,.header-text h2{font-size:20px}.mainmenu-area .navbar-toggle{margin-top:20px}.mainmenu-area .navbar-toggle .icon-bar{background-color:#fff}.mainmenu-area #primary-menu{background-color:#138fc2}.mainmenu-area #primary-menu ul{overflow-y:auto;max-height:70vh;margin:0}.mainmenu-area #primary-menu>ul>li>a{padding:15px;overflow:hidden}.box{padding:30px 15px}.box .box-icon{height:auto}.single-blog,.single-team,.price-table.active{margin-top:30px}.form-double input{width:100%}.footer-top{margin-bottom:50px}.x-left{text-align:left}.mainmenu-area .logo{margin-left:15px}}
+
+
+.center-heading {
+    text-align: center;
+  }
+  
+  .center-heading .section-title {
+    font-weight: 400;
+    font-size: 28px;
+    color: #3B566E;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+  
+  .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6F8BA4;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+  }
+  
+  .center-text p {
+    margin-bottom: 30px;
+  }
+  
+  .testimonials-item {
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .testimonials-item:hover .hexagon-user {
+    top: -30px;
+  }
+  
+  .testimonials-item:hover .testimonials-content:before {
+    opacity: 1;
+  }
+  
+  .testimonials-item:hover .testimonials-content .user-name {
+    color: #fff;
+  }
+  
+  .testimonials-item:hover .testimonials-content span, .testimonials-item:hover .testimonials-content p {
+    color: #C7E5FF;
+  }
+  
+  .testimonials-item .hexagon-user {
+    width: 93px;
+    height: 106px;
+    position: relative;
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    z-index: 3;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+  .testimonials-item .testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 4px solid #fff;
+  }
+  
+  .testimonials-item .testimonials-content {
+    background: #F9FAFF;
+    overflow: hidden;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .testimonials-item .testimonials-content:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: linear-gradient(135deg, #0FB4E5 0%, #743FE5 100%);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .testimonials-item .testimonials-content .user-name {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3B566E;
+    margin-top: 20px;
+    padding-left: 140px;
+    letter-spacing: 0.69px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .testimonials-item .testimonials-content span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    padding-left: 140px;
+    padding-right: 25px;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .testimonials-item .testimonials-content p {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    position: relative;
+    z-index: 3;
+  }
