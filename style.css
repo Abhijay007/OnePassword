@@ -1054,3 +1054,11 @@ input:-webkit-autofill:focus {
   position: relative;
   z-index: 3;
 }
+
+#containerCust {
+  max-width: 900px !important;
+}
+
+#team-page {
+  margin-bottom: -150px;
+}
