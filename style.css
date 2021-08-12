@@ -1062,3 +1062,7 @@ input:-webkit-autofill:focus {
 #team-page {
   margin-bottom: -150px;
 }
+
+#logo {
+  width:50px;
+}
