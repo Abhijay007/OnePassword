@@ -1022,7 +1022,7 @@ input:-webkit-autofill:focus {
 
 .social-menu-user li {
   display: inline-block;
-  margin: 0 3px
+  margin: 4px 3px
 }
 
 .social-menu-user li a {
@@ -1065,4 +1065,6 @@ input:-webkit-autofill:focus {
 
 #logo {
   width:50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
