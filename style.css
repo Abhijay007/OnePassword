@@ -874,6 +874,9 @@ input:-webkit-autofill:focus {
   .mainmenu-area .logo {
     margin-left: 15px
   }
+  .play-logo{
+    margin-left:-40px;
+  }
 }
 
 .center-heading {
