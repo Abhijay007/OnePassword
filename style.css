@@ -877,6 +877,9 @@ input:-webkit-autofill:focus {
   .play-logo{
     margin-left:-40px;
   }
+  #video-section {
+    display: none;
+  }
 }
 
 .center-heading {
